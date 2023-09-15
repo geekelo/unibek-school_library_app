@@ -11,7 +11,6 @@ class Person
   attr_writer name=(new_name)
     @name = new_name
   end
-
   attr_writer age=(new_age)
     @age = new_age
   end
