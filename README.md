@@ -106,7 +106,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  ruby my_list.rb  
+  ruby [filename]
 ```
 
 
@@ -171,7 +171,7 @@ I would like to thank from Microverse for adding the guidlines of project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
