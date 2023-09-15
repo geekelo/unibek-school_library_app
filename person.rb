@@ -14,7 +14,6 @@ class Person
   attr_writer age=(new_age)
     @age = new_age
   end
-
   def can_use_services?
     of_age? || @parent_permission
   end
