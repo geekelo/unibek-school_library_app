@@ -106,7 +106,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  ruby [filename]
+  ruby verification.rb
 ```
 
 
