@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'classroom'
 require_relative 'student'
 require_relative 'book'

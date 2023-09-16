@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'book'
 require_relative 'person'
 require_relative 'student'
@@ -15,7 +17,7 @@ class App
   def create_book
     print "\nTitle: "
     name = gets.chomp
-    print "Author: "
+    print 'Author: '
     author = gets.chomp
     new_book = Book.new(name, author)
     @books << new_book
@@ -75,7 +77,7 @@ class App
       @rentals << new_rental
       puts "Rental created successfully\n\n"
     else
-      puts "Please add at least one book and one student."
+      puts 'Please add at least one book and one student.'
     end
   end
 
