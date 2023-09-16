@@ -1,7 +1,7 @@
 require_relative 'nameable'
 class Decorator < Nameable
-  super() # Call super to initialize state of the parent class.
   def initialize(nameable)
+    super() # Call super to initialize state of the parent class.
     @nameable = nameable
   end
 
