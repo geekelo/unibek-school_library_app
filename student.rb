@@ -4,6 +4,7 @@ class Student < Person
   attr_reader :classroom
 
   def initialize(name)
+    super()
     @name = name
   end
 
