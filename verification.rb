@@ -1,6 +1,6 @@
 require_relative 'person'
-require_relative 'capitalizeDecorator'
-require_relative 'trimDecorator'
+require_relative 'capitalize_Decorator'
+require_relative 'trim_Decorator'
 
 person = Person.new(22, 'maximilianus')
 puts person.correct_name # Outputs: maximilianus
