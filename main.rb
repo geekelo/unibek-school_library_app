@@ -1,5 +1,4 @@
 require_relative 'app'
-
 def main
   books = [] # Initialize an array to store books
   people = [] # Initialize an array to store people
@@ -30,5 +29,4 @@ def main
   end
 end
 
-# Call the main method to start the app
 main
