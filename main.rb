@@ -1,18 +1,22 @@
 require_relative 'app'
+
+def display_menu
+  puts 'Choose an option:'
+  puts '1. List books'
+  puts '2. List people'
+  puts '3. Create person'
+  puts '4. Create book'
+  puts '5. Create rental'
+  puts '6. List rentals for a person'
+  puts '7. Quit'
+end
+
 def main
   books = [] # Initialize an array to store books
   people = [] # Initialize an array to store people
 
   loop do
-    puts 'Choose an option:'
-    puts '1. List books'
-    puts '2. List people'
-    puts '3. Create person'
-    puts '4. Create book'
-    puts '5. Create rental'
-    puts '6. List rentals for a person'
-    puts '7. Quit'
-
+    display_menu
     choice = gets.chomp.to_i
 
     case choice
@@ -29,4 +33,5 @@ def main
   end
 end
 
+# Call the main method to start the app
 main
