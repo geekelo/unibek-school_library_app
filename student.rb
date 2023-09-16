@@ -9,6 +9,6 @@ class Student
   def classroom=(classroom)
     @classroom&.students&.delete(self)
     @classroom = classroom
-    classroom&.students << self
+    classroom&.students << self if classroom
   end
 end

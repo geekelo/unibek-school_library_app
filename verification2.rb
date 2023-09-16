@@ -29,4 +29,4 @@ Rental.new('2023-09-15', person, book2)
 # Access relationships
 puts "Classroom label: #{classroom.label}"
 puts "Students in the classroom: #{classroom.students.map(&:name).join(', ')}"
-puts "Books rented by #{person.name}: #{person.rentals.map { |rental| '#{rental.book.title} by #{rental.book.author}' }.join(', ')}"
+puts "Books rented by #{person.name}: #{person.rentals.map { |rental| "#{rental.book.title} by #{rental.book.author}" }.join(', ')}"
