@@ -1,4 +1,3 @@
-
 class Student
   attr_accessor :name
   attr_reader :classroom
@@ -13,4 +12,3 @@ class Student
     classroom&.students << self
   end
 end
-
