@@ -1,12 +1,16 @@
-require_relative 'person'
 
-class Student < Person
-  def initialize(id, classroom)
-    super(id)
-    @classroom = classroom
+class Student
+  attr_accessor :name
+  attr_reader :classroom
+
+  def initialize(name)
+    @name = name
   end
 
-  def play_hooky
-    '¯\(ツ)/¯'
+  def classroom=(classroom)
+    @classroom&.students&.delete(self)
+    @classroom = classroom
+    classroom&.students << self
   end
 end
+
