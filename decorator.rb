@@ -3,7 +3,7 @@ class Decorator < Nameable
   attr_accessor :name, :age
 
   def initialize(nameable)
-    super() # Call super to initialize state of the parent class.
+    super()
     @nameable = nameable
   end
 
